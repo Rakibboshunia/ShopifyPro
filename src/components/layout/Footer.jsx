@@ -22,9 +22,11 @@ export default function Footer() {
               <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-black font-black text-sm">S</div>
               <span className="text-white font-bold text-lg tracking-tight">Shopify<span className="text-primary">Dev</span></span>
             </div>
+            
             <p className="text-gray-600 text-xs leading-relaxed mb-4">
               Crafting premium, high-converting Shopify experiences for ambitious brands worldwide.
             </p>
+            
             <div className="flex items-center gap-1.5 text-xs">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
               <span className="text-primary font-medium">Available for projects</span>
