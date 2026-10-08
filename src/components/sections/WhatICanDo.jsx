@@ -9,7 +9,7 @@ export default function WhatICanDo() {
   ];
 
   return (
-    <section id="what-i-can-do" className="relative py-20 bg-[#060606] overflow-hidden">
+    <section id="what-i-can-do" className="relative py-12 bg-[#060606] overflow-hidden">
 
       
       {/* Decorative orb */}
@@ -29,7 +29,7 @@ export default function WhatICanDo() {
             <p className="text-gray-500 leading-relaxed mb-8 text-sm">
               I don't just write code — I understand e-commerce. From UX decisions that reduce cart abandonment to technical optimizations that boost your Google rankings, I bring both craft and strategy.
             </p>
-            <a href="#contact" className="btn-primary">Start a Conversation</a>
+            <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-primary">Start a Conversation</a>
           </div>
 
           {/* Right — capability grid */}

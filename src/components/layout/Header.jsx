@@ -47,7 +47,7 @@ export default function Header() {
         </nav>
 
         {/* CTA */}
-        <a href="#contact" className="hidden md:inline-flex btn-primary text-sm">
+        <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex btn-primary text-sm">
           <span>Let&apos;s Talk</span>
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
         </a>
@@ -68,7 +68,7 @@ export default function Header() {
               {link.name}
             </a>
           ))}
-          <a href="#contact" className="block mt-4 btn-primary w-full text-center">Let&apos;s Talk</a>
+          <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="block mt-4 btn-primary w-full text-center">Let&apos;s Talk</a>
         </div>
       )}
     </header>

@@ -2,24 +2,22 @@
 import { useState } from 'react';
 
 const faqs = [
-  { q: 'How much does a custom Shopify theme cost?', a: 'Custom themes range from $1,500 to $8,000 depending on complexity, number of sections, and features. I provide detailed quotes after understanding your requirements on a discovery call.' },
-  { q: 'How long does a typical Shopify project take?', a: 'A standard custom theme takes 3–5 weeks. A full Shopify Plus build with custom functionality typically runs 6–10 weeks. Timelines are shared upfront in your project proposal.' },
-  { q: 'Do you convert Figma designs to Shopify?', a: 'Yes — this is one of my most requested services. I can convert any Figma, Adobe XD, or even a Sketch design into a production-ready Shopify theme with full Online Store 2.0 support.' },
-  { q: 'Can you work with my existing Shopify store?', a: 'Absolutely. I can add features, fix bugs, optimize performance, or do a full redesign on any existing Shopify store without disrupting your live sales.' },
-  { q: 'Do you offer ongoing maintenance?', a: 'Yes. I offer monthly retainer packages for stores that need regular updates, new sections, or dedicated developer support.' },
-  { q: 'Can you set up Dropshipping & Multichannel?', a: 'Yes, I can fully automate your Shopify store with AliExpress/DSers, or sync your inventory and orders seamlessly with marketplaces like eBay and Etsy.' },
-  { q: 'How do we get started?', a: 'Just fill out the contact form below or email me directly. I respond within 24 hours and we\'ll schedule a free 30-minute discovery call.' },
+  { q: 'Will my store be fully mobile-friendly and fast?', a: 'Absolutely! I build mobile-first, highly responsive stores optimized for speed. Every project undergoes rigorous testing to ensure sub-2 second load times and top scores on Google PageSpeed Insights.' },
+  { q: 'Can you redesign my existing Shopify store without losing sales?', a: 'Yes, I can develop a new theme in the background while your current store remains fully operational. Once everything is perfect and approved, we seamlessly publish the new theme with zero downtime.' },
+  { q: 'What do I need to provide before we start the project?', a: 'Usually, I need your brand assets (logo, colors, fonts), a general idea of your required features, and your product details. If you have a Figma or XD design, you can share that as well.' },
+  { q: 'Do you help with adding products and installing apps?', a: 'Yes! I assist with initial product uploads, organizing collections, and integrating necessary third-party apps (like reviews, email marketing, or dropshipping tools) to make sure your store is ready to sell.' },
+  { q: 'Do you provide support after the store is launched?', a: 'Of course. I offer 15 to 30 days of free post-launch support to fix any bugs or issues. For ongoing updates or new features, I also offer monthly maintenance packages.' },
 ];
 
 export default function FAQ() {
   const [open, setOpen] = useState(null);
 
   return (
-    <section id="faq" className="relative py-20 bg-[#080808] overflow-hidden">
+    <section id="faq" className="relative py-12 bg-[#080808] overflow-hidden">
 
 
       <div className="max-w-4xl mx-auto px-6">
-        <div className="mb-16 text-center">
+        <div className="mb-10 text-center">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">FAQ</p>
           <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
             Common Questions

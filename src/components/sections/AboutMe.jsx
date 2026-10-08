@@ -8,7 +8,7 @@ export default function AboutMe() {
   ];
 
   return (
-    <section id="about" className="relative py-20 bg-[#060606] overflow-hidden">
+    <section id="about" className="relative py-12 bg-[#060606] overflow-hidden">
 
 
       <div className="max-w-7xl mx-auto px-6">
@@ -57,7 +57,7 @@ export default function AboutMe() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#contact" className="btn-primary">Hire Me</a>
+              <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-primary">Hire Me</a>
               <a href="#" className="btn-ghost">Download CV</a>
             </div>
           </div>

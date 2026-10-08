@@ -19,20 +19,13 @@ export default function Technologies() {
   ];
 
   return (
-    <section id="technologies" className="relative py-20 bg-[#060606] overflow-hidden">
+    <section id="technologies" className="relative py-12 bg-[#060606] overflow-hidden">
 
 
-      {/* Marquee banner at top */}
-      <div className="absolute top-0 left-0 right-0 overflow-hidden py-3 bg-primary/5 border-b border-primary/10">
-        <div className="flex animate-marquee whitespace-nowrap gap-12">
-          {['Shopify Liquid', 'Hydrogen', 'Next.js', 'GraphQL', 'Storefront API', 'Shopify Plus', 'Checkout Extensions', 'Shopify Functions', 'GSAP', 'Tailwind CSS', 'Shopify Liquid', 'Hydrogen', 'Next.js', 'GraphQL', 'Storefront API', 'Shopify Plus'].map((t, i) => (
-            <span key={i} className="text-xs font-semibold text-primary/60 uppercase tracking-widest">✦ {t}</span>
-          ))}
-        </div>
-      </div>
+
 
       <div className="max-w-7xl mx-auto px-6 pt-10">
-        <div className="mb-16">
+        <div className="mb-10">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Tech Stack</p>
           <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
             Technologies I Master

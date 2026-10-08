@@ -33,11 +33,11 @@ export default function Workflow() {
   ];
 
   return (
-    <section id="workflow" className="relative py-20 bg-[#080808] overflow-hidden">
+    <section id="workflow" className="relative py-12 bg-[#080808] overflow-hidden">
 
 
       <div className="max-w-7xl mx-auto px-6">
-        <div className="mb-16">
+        <div className="mb-10">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Process</p>
           <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">How I Work</h2>
         </div>

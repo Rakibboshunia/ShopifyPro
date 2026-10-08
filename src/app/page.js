@@ -1,4 +1,5 @@
 import Hero from '@/components/sections/Hero';
+import TechMarquee from '@/components/sections/TechMarquee';
 import Services from '@/components/sections/Services';
 import FeaturedProjects from '@/components/sections/FeaturedProjects';
 import AllProjects from '@/components/sections/AllProjects';
@@ -14,14 +15,15 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <TechMarquee />
+      <AboutMe />
       <Services />
+      <WhatICanDo />
       <FeaturedProjects />
       <AllProjects />
-      <WhatICanDo />
       <Workflow />
       <Technologies />
       <Testimonials />
-      <AboutMe />
       <FAQ />
       <Contact />
     </main>

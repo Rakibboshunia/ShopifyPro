@@ -27,11 +27,11 @@ export default function FeaturedProjects() {
   ];
 
   return (
-    <section id="featured-projects" className="relative py-20 bg-[#060606] overflow-hidden">
+    <section id="featured-projects" className="relative py-12 bg-[#060606] overflow-hidden">
 
       
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
           <div>
             <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Portfolio</p>
             <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
