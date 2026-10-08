@@ -1,3 +1,4 @@
+
 export default function Contact() {
   return (
     <section id="contact" className="relative py-20 bg-[#060606] overflow-hidden">
@@ -61,6 +62,7 @@ export default function Contact() {
                 <label className="block text-xs text-gray-500 mb-2 font-medium">Email Address</label>
                 <input type="email" placeholder="john@brand.com" className="w-full bg-white/4 border border-white/8 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-700 focus:outline-none focus:border-primary transition-colors" />
               </div>
+              
               <div>
                 <label className="block text-xs text-gray-500 mb-2 font-medium">Project Type</label>
                 <select className="w-full bg-white/4 border border-white/8 rounded-xl px-4 py-3 text-sm text-gray-400 focus:outline-none focus:border-primary transition-colors">
