@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutMe() {
   const facts = [
     { val: '5+', label: 'Years in Shopify' },
@@ -18,7 +20,7 @@ export default function AboutMe() {
               {/* Decorative border */}
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 to-transparent -rotate-2 scale-105"></div>
               <div className="relative rounded-3xl overflow-hidden bg-[#111] border border-white/8 aspect-[4/5] flex items-center justify-center">
-                <span className="text-8xl">👨‍💻</span>
+                <Image src="/Boshunia.png" alt="About Me" fill className="object-cover" />
               </div>
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 card-glass rounded-2xl px-5 py-4 glow-sm">
