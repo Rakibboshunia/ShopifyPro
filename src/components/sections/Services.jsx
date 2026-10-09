@@ -51,17 +51,17 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="relative py-12 bg-[#080808] overflow-hidden">
+    <section id="services" className="relative py-16 md:py-20 bg-[#080808] overflow-hidden">
 
       
       {/* Background accent */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[radial-gradient(circle,rgba(149,191,71,0.08)_0%,transparent_70%)] blur-3xl pointer-events-none"></div>
       
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section header */}
         <div className="mb-10">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">What I Offer</p>
-          <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black tracking-tight">
             Services Built for
             <br/>
             <span className="gradient-text">Shopify Excellence</span>
@@ -69,11 +69,11 @@ export default function Services() {
         </div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {services.map((srv, i) => (
             <div
               key={i}
-              className="card-glass card-hover rounded-2xl p-7 group cursor-default"
+              className="card-glass card-hover rounded-2xl p-5 sm:p-7 group cursor-default"
             >
               <div className="text-3xl mb-5">{srv.icon}</div>
               <h3 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors">{srv.title}</h3>

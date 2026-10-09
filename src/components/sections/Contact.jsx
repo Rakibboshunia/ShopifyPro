@@ -1,19 +1,19 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative py-12 bg-[#060606] overflow-hidden">
+    <section id="contact" className="relative py-16 md:py-20 bg-[#060606] overflow-hidden">
 
 
       {/* Large glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-[radial-gradient(circle,rgba(149,191,71,0.07)_0%,transparent_65%)] blur-3xl pointer-events-none"></div>
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-16 items-start">
 
           {/* Left — copy */}
           <div>
             <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Let&apos;s Connect</p>
-            <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight mb-6">
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black tracking-tight mb-6">
               Ready to Build
               <br />
               <span className="gradient-text">Something Great?</span>

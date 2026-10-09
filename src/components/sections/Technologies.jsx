@@ -19,15 +19,15 @@ export default function Technologies() {
   ];
 
   return (
-    <section id="technologies" className="relative py-12 bg-[#060606] overflow-hidden">
+    <section id="technologies" className="relative py-16 md:py-20 bg-[#060606] overflow-hidden">
 
 
 
 
-      <div className="max-w-7xl mx-auto px-6 pt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="mb-10">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">Tech Stack</p>
-          <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black tracking-tight">
             Technologies I Master
           </h2>
         </div>

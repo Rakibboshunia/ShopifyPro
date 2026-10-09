@@ -13,13 +13,13 @@ export default function FAQ() {
   const [open, setOpen] = useState(null);
 
   return (
-    <section id="faq" className="relative py-12 bg-[#080808] overflow-hidden">
+    <section id="faq" className="relative py-16 md:py-20 bg-[#080808] overflow-hidden">
 
 
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="mb-10 text-center">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">FAQ</p>
-          <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black tracking-tight">
             Common Questions
           </h2>
         </div>

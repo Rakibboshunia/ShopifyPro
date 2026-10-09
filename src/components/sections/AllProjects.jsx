@@ -9,13 +9,13 @@ export default function AllProjects() {
   ];
 
   return (
-    <section id="all-projects" className="relative py-12 bg-[#080808] overflow-hidden">
+    <section id="all-projects" className="relative py-16 md:py-20 bg-[#080808] overflow-hidden">
 
       
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="mb-10">
           <p className="text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4">More Work</p>
-          <h2 className="font-display text-4xl md:text-5xl font-black tracking-tight">All Projects</h2>
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black tracking-tight">All Projects</h2>
         </div>
 
         <div className="space-y-px bg-white/5 rounded-2xl overflow-hidden border border-white/5">
@@ -29,7 +29,7 @@ export default function AllProjects() {
                 </div>
               </div>
               <div className="flex items-center gap-6">
-                <span className="hidden sm:block text-xs px-3 py-1 rounded-full bg-white/5 text-gray-500 border border-white/5">{p.platform}</span>
+                <span className="text-xs px-2 py-1 rounded-full bg-white/5 text-gray-500 border border-white/5">{p.platform}</span>
                 <svg className="w-4 h-4 text-gray-600 group-hover:text-primary transition-colors -translate-x-1 group-hover:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
               </div>
             </div>
