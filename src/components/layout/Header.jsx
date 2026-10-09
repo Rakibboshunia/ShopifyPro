@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,7 +27,16 @@ export default function Header() {
         
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-black font-black text-sm group-hover:scale-110 transition-transform">S</div>
+          <div className="group-hover:scale-110 transition-transform duration-300">
+            <Image
+              src="/Glossy Green S-Shopper Emblem.png"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+              priority
+            />
+          </div>
           <span className="text-white font-bold text-lg tracking-tight">
             Shopify<span className="text-primary">Dev</span>
           </span>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 export default function Footer() {
   const links = {
@@ -19,9 +20,15 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-black font-black text-sm">S</div>
-              <span className="text-white font-bold text-lg tracking-tight">Shopify<span className="text-primary">Dev</span></span>
-            </div>
+            <Image
+              src="/Glossy Green S-Shopper Emblem.png"
+              alt="Logo"
+              width={40}
+              height={40}
+              className="object-contain"
+            />
+            <span className="text-white font-bold text-lg tracking-tight">Shopify<span className="text-primary">Dev</span></span>
+          </div>
             
             <p className="text-gray-600 text-xs leading-relaxed mb-4">
               Crafting premium, high-converting Shopify experiences for ambitious brands worldwide.
