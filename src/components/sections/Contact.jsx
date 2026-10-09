@@ -56,7 +56,7 @@ export default function Contact() {
             <p className="text-gray-400 text-sm mb-8 max-w-sm">
               Skip the forms and emails. Send me a message directly on WhatsApp and let&apos;s start discussing your project right away!
             </p>
-            <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-primary w-full max-w-xs justify-center py-4 bg-[#25D366] text-white hover:bg-[#20b858]">
+            <a href="https://wa.me/8801779296092" target="_blank" rel="noopener noreferrer" className="btn-primary w-full max-w-xs justify-center py-4 bg-[#25D366] text-white hover:bg-[#20b858]">
               Chat on WhatsApp
             </a>
           </div>

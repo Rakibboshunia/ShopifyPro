@@ -46,7 +46,7 @@ export default function Hero() {
                 View My Work
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
               </a>
-              <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              <a href="https://wa.me/8801779296092" target="_blank" rel="noopener noreferrer" className="btn-ghost">
                 Start a Project
               </a>
             </div>

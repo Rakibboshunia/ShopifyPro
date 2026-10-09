@@ -57,7 +57,7 @@ export default function AboutMe() {
             </div>
 
             <div className="flex gap-4">
-              <a href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener noreferrer" className="btn-primary">Hire Me</a>
+              <a href="https://wa.me/8801779296092" target="_blank" rel="noopener noreferrer" className="btn-primary">Hire Me</a>
               <a href="#" className="btn-ghost">Download CV</a>
             </div>
           </div>
