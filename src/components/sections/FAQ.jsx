@@ -28,7 +28,7 @@ export default function FAQ() {
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className={`rounded-2xl border transition-all duration-300 overflow-hidden ${open === i ? 'border-primary/30 bg-primary/5' : 'border-white/5 bg-[#0e0e0e] hover:border-white/10'}`}
+              className={`faq-item rounded-2xl border transition-all duration-300 overflow-hidden ${open === i ? 'border-primary/30 bg-primary/5' : 'border-white/5 bg-[#0e0e0e] hover:border-white/10'}`}
             >
               <button
                 onClick={() => setOpen(open === i ? null : i)}

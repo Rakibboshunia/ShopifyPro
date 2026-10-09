@@ -65,7 +65,8 @@
 
   /* Named card classes */
   [data-theme="light"] .step-card,
-  [data-theme="light"] .case-card {
+  [data-theme="light"] .case-card,
+  [data-theme="light"] .faq-item {
     background-color: #ffffff !important;
     border-color: rgba(0,0,0,0.08) !important;
   }
