@@ -21,8 +21,8 @@
   [data-theme="light"] {
     --bg-base: #f5f5f0;
     --bg-surface: #efefea;
-    --bg-card: rgba(255,255,255,0.7);
-    --border-card: rgba(0,0,0,0.08);
+    --bg-card: rgba(255,255,255,0.75);
+    --border-card: rgba(0,0,0,0.09);
     --text-body: #111111;
     --text-muted: rgba(0,0,0,0.5);
     --text-dim: rgba(0,0,0,0.3);
@@ -49,45 +49,40 @@
      LIGHT MODE — comprehensive overrides
      ============================================= */
 
-  /* All hardcoded dark section/div backgrounds */
-  [data-theme="light"] section,
-  [data-theme="light"] footer,
-  [data-theme="light"] [class*="bg-\[#0"],
-  [data-theme="light"] [class*="bg-\[#1"] {
+  [data-theme="light"] section {
     background-color: var(--bg-base) !important;
   }
-
-  /* Alternating surface */
   [data-theme="light"] section:nth-child(even) {
     background-color: var(--bg-surface) !important;
   }
-
-  /* Cards with hardcoded dark bg */
-  [data-theme="light"] .step-card,
-  [data-theme="light"] .case-card,
-  [data-theme="light"] [class*="bg-\[#0c"],
-  [data-theme="light"] [class*="bg-\[#0e"] {
-    background-color: #ffffff !important;
-    border-color: rgba(0,0,0,0.08) !important;
-  }
-
-  /* Header scrolled state */
-  [data-theme="light"] header {
-    border-bottom-color: rgba(0,0,0,0.08) !important;
-  }
-
-  /* Footer */
   [data-theme="light"] footer {
     background-color: #ebebeb !important;
     border-top-color: rgba(0,0,0,0.08) !important;
   }
-
-  /* Stat bars / row backgrounds */
-  [data-theme="light"] [class*="bg-\[#0e0e0e\]"] {
-    background-color: #f0f0eb !important;
+  [data-theme="light"] header {
+    border-bottom-color: rgba(0,0,0,0.08) !important;
   }
 
-  /* ── Text overrides ── */
+  /* Named card classes */
+  [data-theme="light"] .step-card,
+  [data-theme="light"] .case-card {
+    background-color: #ffffff !important;
+    border-color: rgba(0,0,0,0.08) !important;
+  }
+
+  /* card-glass */
+  [data-theme="light"] .card-glass {
+    background: rgba(255,255,255,0.75) !important;
+    border-color: rgba(0,0,0,0.09) !important;
+  }
+
+  /* card-hover */
+  [data-theme="light"] .card-hover:hover {
+    background: rgba(149,191,71,0.06) !important;
+    border-color: rgba(149,191,71,0.25) !important;
+  }
+
+  /* Text */
   [data-theme="light"] .text-gray-300 { color: #333333 !important; }
   [data-theme="light"] .text-gray-400 { color: #555555 !important; }
   [data-theme="light"] .text-gray-500 { color: #666666 !important; }
@@ -95,24 +90,7 @@
   [data-theme="light"] .text-gray-700 { color: #888888 !important; }
   [data-theme="light"] .text-white    { color: #111111 !important; }
 
-  /* ── Border overrides ── */
-  [data-theme="light"] [class*="border-white"] {
-    border-color: rgba(0,0,0,0.08) !important;
-  }
-  [data-theme="light"] [class*="border-white\/5"],
-  [data-theme="light"] [class*="border-white\/8"],
-  [data-theme="light"] [class*="border-white\/10"] {
-    border-color: rgba(0,0,0,0.08) !important;
-  }
-
-  /* ── Background opacity overrides ── */
-  [data-theme="light"] [class*="bg-white\/3"],
-  [data-theme="light"] [class*="bg-white\/4"],
-  [data-theme="light"] [class*="bg-white\/5"] {
-    background-color: rgba(0,0,0,0.04) !important;
-  }
-
-  /* ── Gradient text fix for light mode ── */
+  /* Gradient text */
   [data-theme="light"] .gradient-text {
     background: linear-gradient(135deg, #2a2a2a 0%, #95BF47 50%, #5E8E3E 100%);
     -webkit-background-clip: text;
@@ -120,7 +98,7 @@
     background-clip: text;
   }
 
-  /* ── btn-ghost light mode ── */
+  /* btn-ghost */
   [data-theme="light"] .btn-ghost {
     color: #111111 !important;
     border-color: rgba(0,0,0,0.15) !important;
@@ -131,32 +109,21 @@
     background: rgba(149,191,71,0.08) !important;
   }
 
-  /* ── Mobile menu light mode ── */
-  [data-theme="light"] [class*="bg-\[#0e0e0e\]"]:not(section) {
-    background-color: #f0f0eb !important;
-  }
-
-  /* ── Testimonials marquee fade edges ── */
-  [data-theme="light"] [class*="from-\[#080808\]"] {
-    --tw-gradient-from: #f5f5f0 !important;
-  }
-  [data-theme="light"] [class*="from-\[#080808\]"],
-  [data-theme="light"] .from-\[#080808\] {
-    --tw-gradient-from: #f5f5f0 !important;
-  }
-
-  /* ── Tag/chip backgrounds ── */
+  /* Tags */
   [data-theme="light"] .tag-chip,
-  [data-theme="light"] .skill-tag,
   [data-theme="light"] .index-badge,
   [data-theme="light"] .duration-badge {
     border-color: rgba(0,0,0,0.1) !important;
     color: #555555 !important;
     background: rgba(0,0,0,0.04) !important;
   }
-  [data-theme="light"] .skill-tag { color: #4a7c20 !important; background: rgba(149,191,71,0.1) !important; border-color: rgba(149,191,71,0.25) !important; }
+  [data-theme="light"] .skill-tag {
+    color: #4a7c20 !important;
+    background: rgba(149,191,71,0.1) !important;
+    border-color: rgba(149,191,71,0.25) !important;
+  }
 
-  /* ── Metric boxes ── */
+  /* Metrics */
   [data-theme="light"] .metric-box,
   [data-theme="light"] .stat-card,
   [data-theme="light"] .fact-card {
@@ -164,21 +131,10 @@
     border-color: rgba(0,0,0,0.08) !important;
   }
 
-  /* ── Step icon in workflow ── */
+  /* Step icon */
   [data-theme="light"] .step-icon {
     background: rgba(149,191,71,0.12) !important;
     border-color: rgba(149,191,71,0.25) !important;
-  }
-
-  /* ── FAQ items ── */
-  [data-theme="light"] [class*="bg-\[#0e0e0e\]"][class*="rounded-2xl"] {
-    background-color: #ffffff !important;
-    border-color: rgba(0,0,0,0.08) !important;
-  }
-
-  /* ── Hero grid background ── */
-  [data-theme="light"] [class*="bg-\[linear-gradient"] {
-    opacity: 0.5;
   }
 
   ::selection {
