@@ -44,8 +44,8 @@ export default function Testimonials() {
         {/* Marquee Container */}
         <div className="relative flex overflow-hidden group">
           {/* Fading edges */}
-          <div className="absolute top-0 bottom-0 left-0 w-24 bg-gradient-to-r from-[#080808] to-transparent z-10 pointer-events-none"></div>
-          <div className="absolute top-0 bottom-0 right-0 w-24 bg-gradient-to-l from-[#080808] to-transparent z-10 pointer-events-none"></div>
+          <div className="absolute top-0 bottom-0 left-0 w-24 bg-gradient-to-r from-[var(--bg-base)] to-transparent z-10 pointer-events-none" />
+          <div className="absolute top-0 bottom-0 right-0 w-24 bg-gradient-to-l from-[var(--bg-base)] to-transparent z-10 pointer-events-none" />
 
           {/* Scrolling Track */}
           <div className="flex gap-6 py-4 animate-[marquee_30s_linear_infinite] group-hover:[animation-play-state:paused] whitespace-nowrap min-w-max">
