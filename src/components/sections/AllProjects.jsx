@@ -1,3 +1,4 @@
+
 export default function AllProjects() {
   const projects = [
     { title: 'OrganicCo', type: 'Custom Theme', platform: 'Shopify' },
