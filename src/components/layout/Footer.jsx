@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 
 export default function Footer() {
@@ -28,12 +29,10 @@ export default function Footer() {
               className="object-contain"
             />
             <span className="text-white font-bold text-lg tracking-tight">Shopify<span className="text-primary">Dev</span></span>
-          </div>
-            
+          </div>   
             <p className="text-gray-600 text-xs leading-relaxed mb-4">
               Crafting premium, high-converting Shopify experiences for ambitious brands worldwide.
             </p>
-            
             <div className="flex items-center gap-1.5 text-xs">
               <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
               <span className="text-primary font-medium">Available for projects</span>
