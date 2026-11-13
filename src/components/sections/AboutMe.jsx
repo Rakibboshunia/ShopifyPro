@@ -1,4 +1,5 @@
 'use client';
+
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
@@ -125,7 +126,6 @@ export default function AboutMe() {
               <div className="relative w-full max-w-[360px]">
                 {/* Decorative rotate background */}
                 <div className="absolute inset-0 rounded-[28px] bg-gradient-to-br from-primary/20 to-transparent -rotate-3 scale-[1.04] pointer-events-none" />
-
                 <div className="photo-frame">
                   <div className="photo-inner aspect-[4/5]">
                     <Image
